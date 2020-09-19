@@ -1,0 +1,11 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.cp.black.controller.Main" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages><Page id="page" title="{i18n>title}" busyIndicatorSize="Large">
+					<content><Label text="Just Test For Deploy SCP" width="30%" id="label" vAlign="Middle" busyIndicatorSize="Large" textAlign="Center" wrapping="true"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
